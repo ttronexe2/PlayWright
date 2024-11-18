@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-// Comprueba el Lea
+// Comprueba el Learn
 test('Learn More', async ({ page }) => {
   await page.goto('https://www.werfen.com/es/es');
   
